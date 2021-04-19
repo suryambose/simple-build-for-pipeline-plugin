@@ -28,7 +28,7 @@ pipeline {
             steps {
                 script {
                     // Let's clone the source
-                    git 'https://github.com/suryambose/nexus--maven-samples.git';
+                    git 'https://github.com/suryambose/simple-build-for-pipeline-plugin.git';
                 }
             }
         }
