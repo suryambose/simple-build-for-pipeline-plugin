@@ -43,11 +43,24 @@
 
     <developers>
         <developer>
-            <id>mneale</id>
-            <name>Michael Neale</name>
-            <email>mneale@cloudbees.com</email>
+            <id>surya</id>
+            <name>Surya M Bose</name>
+            <email>sbosekamal@gmail.com</email>
         </developer>
     </developers>
+    
+     <distributionManagement>
+    <repository>
+	    <id>nexus</id>
+		  <name>maven-releases</name>
+		  <url>http://localhost:8081/repository/maven-releases/</url>
+	  </repository>
+	  <snapshotRepository>
+	     <id>nexus</id>
+		   <name>maven-snapshots</name>
+		   <url>http://localhost:8081/repository/maven-snapshots/</url>
+	  </snapshotRepository>
+  </distributionManagement>
 
     <repositories>
         <repository>
